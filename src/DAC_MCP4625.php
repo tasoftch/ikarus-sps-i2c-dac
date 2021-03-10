@@ -57,6 +57,7 @@ class DAC_MCP4625
 	}
 
 	/**
+	 * Gets the i2c instance
 	 * @return I2C
 	 */
 	public function getBus(): I2C
